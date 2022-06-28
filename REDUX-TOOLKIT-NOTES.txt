@@ -1,0 +1,56 @@
+PART 1 REDUX DEMO
+    npm init
+
+    INSTALL REDUX
+        npm i redux
+    
+    RUN
+        node index / npm start          (edit script in package json)
+
+    INSTALL IMMER                       (simplify the nested object in state in redux. simplify handling immutable data structures) 
+        npm i immer
+
+    INSTALL REDUX LOGGER                (a logger. it does what store.getState() do )
+        https://www.npmjs.com/package/redux-logger
+        npm i redux-logger
+
+    INSTALL REDUX THUNK                 (a middleware use for logging , crash reporting , perform async task )
+        npm i redux-thunk
+
+    INSTALL AXIOS                       ( use for api data fetching)
+        npm i axios
+
+PART 2 REDUX TOOLKIT DEMO
+    npm init
+
+    RUN
+        node index
+
+    REDUX TOOLKIT
+        https://redux-toolkit.js.org/introduction/getting-started
+        npm i @reduxjs/toolkit
+
+    REDUX LOGGER
+        npm i redux-logger
+
+
+
+
+VITE REACT APP PART 3
+    npm create vite@latest react-reduxtoolkit-demo
+        choose react
+        navigate inside folder and run npm install to install dependencies
+
+    npm i axios
+    npm i @reduxjs/toolkit
+
+    npm i react-redux                   (Use redux in react app)
+
+
+
+
+
+        
+
+    
+
